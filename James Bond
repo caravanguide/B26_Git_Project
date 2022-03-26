@@ -1,4 +1,13 @@
-package day0;
-public class jamesbond
+package day36_methods;
 
-public static void main(Strinbg [] arg ) {
+import java.util.Arrays;
+
+public class AddElement {
+
+    public static void main(String[] args) {
+
+        int [] a = {1, 2, 3};
+        int [] b = addElement(a, 4);
+        System.out.println(Arrays.toString(b));
+
+    }
